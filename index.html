@@ -1,0 +1,209 @@
+<!DOCTYPE html/>
+
+<html>
+    <head>
+        <title> Quiz sobre Cuanza Norte </title>
+        <meta name="description" content="Um quiz interativo para testar o seu conhecimento">
+        <style> 
+            h1{
+                color:blue;
+                font-size: 25px;
+            }
+            p{
+                color:black;
+                font-size: 15;
+            }
+        </style>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Quiz sobre Cuanza Norte </h1><br>
+            <p>Teste os seus conhecimentos sobre a provincia de Cuanza Norte, aqui no meu site e vê qual é o seu nível de conhecimento sobre a mesma!
+
+            </p>
+        </header>
+        <main>
+            <!--Introdução-->
+            <section>
+                <h2> Descubra o Cuanza Norte: Um Quiz Especial Sobre a Província.</h2><br>
+                <p>Bem-vindo ao nosso quiz sobre a província de <b>Cuanza Norte</b>, uma das regiões mais fascinantes de  Angola! <br> 
+                    <i>Localizada no coração do país, esta província é conhecida por suas paisagens deslumbrantes, rios majestosos, rica história e cultura vibrante.</i>
+
+                     </p><br>
+
+                    <p>Você conhece bem Cuanza Norte? Sabe quais são seus principais <strong> municípios, rios e atrações turísticas</strong>? Ou está apenas curioso para aprender mais sobre essa terra cheia de  <strong>história e tradição</strong>?</p><br>
+
+                    <p>Teste seus conhecimentos agora e descubra o quanto você sabe sobre <strong>Cuanza Norte</strong>! <br> Boa sorte!</p>
+
+            </section>
+            <!--Pergunta 1: multipla escolha-->
+            <section> <h2>Pergunta 1: Qual é a capital da Província de Cuanza Norte? </h2>
+            <form>
+                <input type="radio" value="Cazengo" id="P1a" name="pergunta1">
+                <label for="P1a">Cazengo</label><br>
+                <input type="radio" value="Ambaca" id="P1b" name="pergunta1">
+                <label for="P1a">Ambaca</label><br>
+                <input type="radio" value="Cambambe" id="P1c" name="pergunta1">
+                <label for="P1a">Cambambe</label><br>
+                <input type="radio" value="Lucala" id="P1c" name="pergunta1">
+                <label for="P1a">Lucala</label><br>
+            </form>
+        </section>
+        <!--Pergunta 2:texto -->
+        <section> 
+            <h2>Pergunta 2 : Qual dos rios de Angola, passou pela província? </h2>
+            <form> 
+                <input type="text" id="p2" name="pergunta2" placeholder="Digite Aqui a Sua Resposta..." >
+            </form>
+        
+        </section>
+          <!--Pergunta 3: multipla escolha-->
+          <section> 
+            <h2>Pergunta 3: Quantos municípios compõe a província ? </h2>
+            <form>
+                <input type="radio" value="Seis" id="P1a" name="pergunta1">
+                <label for="P1a">Seis</label><br>
+                <input type="radio" value=" Dez" id="P1b" name="pergunta1">
+                <label for="P1a">Dez</label><br>
+                <input type="radio" value="Doze" id="P1c" name="pergunta1">
+                <label for="P1a">Doze</label><br>
+                <input type="radio" value="Oito" id="P1c" name="pergunta1">
+                <label for="P1a">Oito</label><br>
+            </form>
+          </section>
+          <!--Pergunta 4 : -->
+          <section>
+            <h2> Em que data se celebra o aniversário da cidade de Cazengo( Ndalatando), capital da província do CN?</h2>
+            <form>
+                <input type="date" id="p4" name="pergunta4">
+            </form>
+          </section>
+          <!-- Pergunta 5 : seleção multipla-->
+           <section>
+            <h2>Qual é o município que abriga a capital da província?</h2>
+          <form>
+            <input type="checkbox"  id="p5a" name="pergunta5" value="Ambaca">
+            <label for="">Ambaca</label>
+            <input type="checkbox"  id="p5a" name="pergunta5" value="Cazengo">
+            <label for="">Cazengo</label>
+            <input type="checkbox"  id="p5a" name="pergunta5" value="Lucala">
+            <label for="">Lucala</label>
+            <input type="checkbox"  id="p5a" name="pergunta5" value="Banga">
+            <label for="Banga"></label>
+        </section>
+        <!-- Pergunta 6 : upload-->
+          <section>
+            <h2>Faça o upload de um arquivo contendo imagem da província.</h2>
+          <form>
+            <input type="file"  id="p5" name="pergunta5">
+            </section>
+            <section>
+                 <!-- Pergunta 7  : menu susoenso -->
+           <section>
+            <h2>Pergunta 7: Selecione o atributo mais abundante na província.</h2>
+          <form>
+            <select name="Pergunta7" id="p7">
+                <option value="ARROZ">ARROZ</option>
+                <option value="FEIJÃO">FEIJÃO</option>
+                <option value="MANDIOCA">MANDIOCA</option>
+            </select>
+            <!-- Pergunta 8 : imagem -->
+            <section>
+                <h2> Pergunta 8: Qual é o nome da cidade que se apresenta na imagem abaixo ? </h2>
+                <figure>
+                    <img src="naldalatando.jpg" alt="imagem de uma das cidades de C.N"><br>
+                    <figcaption> Figura 1: imagem de uma das cidades de Cuanza Norte</figcaption>
+                </figure>
+                
+                <input type="pergunta8" name="" id="p8" aria-placeholder=" Digite a sua Resposta.">
+            </section>
+            <!--Tabela de pontuação-->
+            <h2> Tabela de Pontuação</h2>
+            <table border="1">
+                <thead>
+
+                </thead>
+            <tbody>
+
+                
+                <tr>
+                    <td>0-2</td>
+                    <td>Não desista! Cada tentativa é uma chance para você aprender.</td>
+                    
+                    
+                </tr>
+                <tr> <td>3-4</td>
+                    <td>Você ainda precisa melhorar.</td>
+                </tr>
+                <tr>
+                    <td>5-6</td>
+                    <td> Você está em um bom caminho.</td>
+                </tr>
+                <tr><td>7-8</td>
+                    <td> Ninguém conhece a cidade como você, você é um verdadeiro explorado de cidades.</td>
+                </tr>
+            </tbody>
+            </table> 
+                <!-- Lista de respostas-->
+            <section>
+                <h2> Verifique suas respostas!</h2>
+                <details>
+                    <summary> Clique aqui para ver as respostas.</summary>
+                <ul>
+                    <li>Cazengo</li>
+                    <li>Rio Cuanza</li>
+                    <li>12</li>
+                    <li>28 de Maio</li>
+                    <li>Cazengo</li>
+                    <li></li>
+                    <li>MANDIOCA</li>
+                    <li>Ndalatando</li>
+                </ul>
+            </details>
+            </section>
+            <!-- Formulário de feedback -->
+             <section>
+                <h2> Me dê o seu feedback!</h2>
+                <form>
+                    <fieldset>
+                        <legend> Informações de Conatcto </legend>
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name"><br><br>
+                        <label for="Email">Email</label>
+                        <input type="Email" name="Email" id="Email"><br>
+                        <label for="comentários">Comentários:</label><br>
+                        <textarea name="Comentários" id="Comentários" cols="30" rows="4" cols="50" placeholder=" Digite Aqui o seu comentário!"> </textarea>
+                    </fieldset>
+                    
+                </form>
+             </section>
+
+             
+        </main>
+        <footer>
+            <p> &copy;Este site foi desenvolvido por:</p>
+            <p> Francisco Zambila Cassumba</p>
+            <p> Técnico Médio de Enfermagem.</p>
+            <p> Programador Beginner</p>
+            <p>
+                Para conhecer outros quizzes <a href="https://google.com"
+target="_blank"> Clique aqui</a>             </p>
+        </footer>
+        
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
